@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace _3_laba
 {
     public class StateMachineNWO
@@ -33,12 +28,12 @@ namespace _3_laba
         
             {3, new Dictionary<int, int>()
             {
-                {1, 3},
-                {2, 4},
-                {3, 5},
-                {4, 6},
-                {5, 1},
-                {6, 2}
+                {1, 4},
+                {2, 5},
+                {3, 6},
+                {4, 1},
+                {5, 2},
+                {6, 3}
             } }
         };
         private int _prevState;
